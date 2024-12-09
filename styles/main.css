@@ -1,5 +1,4 @@
-/* General Reset */
-* {
+{
     margin: 0;
     padding: 0;
 }
@@ -116,7 +115,6 @@ section li {
     padding-bottom: .35em;
 }
 
-/* Article Styles */
 article {
     padding: .5em 0;
     border-top: 2px solid #800000;
@@ -133,13 +131,11 @@ article img {
     float: right;
     margin: .5em 0 1em 1em;
     border: 1px solid black;
-
-    /* Transition and rotation */
     transition: transform 3s ease;
-    transform-origin: top left; /* Rotate around the top-left corner */
+    transform-origin: top left; 
 }
 article img:hover {
-    transform: rotate(720deg); /* Rotate the image 720 degrees */
+    transform: rotate(720deg); 
 }
 
 /* Aside Styles */
@@ -159,8 +155,6 @@ aside h3 {
 }
 aside img {
     padding-bottom: 1em;
-
-    /* Animation for movement and scaling */
     animation: moveAndScale 3s ease 2s 2 alternate;
 }
 
@@ -175,7 +169,6 @@ footer p {
     padding: 1em 0;
 }
 
-/* Keyframes for Animating Aside Images */
 @keyframes moveAndScale {
     0% {
         transform: translate(0, 0) scale(1);
